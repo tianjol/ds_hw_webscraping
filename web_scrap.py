@@ -27,7 +27,7 @@ for x in range(0,len(aaa)):
 
 type(df_data_barang)    
 df_data_barangs['harga_barang']
-df_data_barangs.to_csv('D:\\tutor\\digital skola\\hw\\latian 13\\hasil_scrap_barang.csv', index = False)
+df_data_barangs.to_csv('D:\\tutor\\digital skola\\hw\\latian 13\\ds_hw_webscraping\\hasil_scrap_barang.csv', index = False)
       
   
 
