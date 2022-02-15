@@ -1,6 +1,7 @@
 import urllib.request, json, timeit, pandas as pd
 
-shopee_url = "https://shopee.co.id/api/v4/search/search_items?by=relevancy&keyword=minyak%20goreng&limit=60&newest=0&order=desc&page_type=search&scenario=PAGE_GLOBAL_SEARCH&version=2"
+
+shopee_url = "https://shopee.co.id/api/v4/search/search_items?by=relevancy&keyword=jam%20tangan&limit=60&newest=0&order=desc&page_type=search&scenario=PAGE_GLOBAL_SEARCH&version=2"
 print(shopee_url)
 with urllib.request.urlopen(shopee_url) as url:
     data_shopee = json.loads(url.read().decode())
